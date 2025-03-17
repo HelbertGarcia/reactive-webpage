@@ -1,0 +1,132 @@
+#main{
+    align-items: center;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    background-color: #C1CFA1;
+}
+
+.inside-box > img{
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.services{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 25%;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    background-color: #EDE8DC;
+}
+
+.inside-box{
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.services-text{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer p{
+    display: inline-block;
+    font-size: 30px;
+}
+
+#instagram{
+    display: inline-block;
+    height: 50px;
+}
+
+.footer-div{
+    background-color: #C1CFA1;
+}
+
+@media(min-width:300px) and (max-width: 500px) {
+
+    p{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    #introduction{
+        text-align: justify;
+    }
+    
+    h1{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        font-style: normal;
+        text-align: center;
+        background-color: #C1CFA1;
+    }
+    
+    .inside-box > img{
+        height: 100px;
+        width: 100%;
+        border-radius: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .inside-box p{
+        max-width: 100%;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .services{
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 37%;
+        padding: 10px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        background-color: #EDE8DC;
+    }
+    
+    .inside-box{
+        border-radius: 15px;
+        margin: 5px;
+    }
+    
+    footer a p{
+        display: inline-block;
+        font-size:27px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #instagram{
+        display: inline-block;
+        max-height: 100%;
+    }
+    
+    .footer-div{
+        background-color: #C1CFA1;
+        display: inline-block;
+    }
+}
